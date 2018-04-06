@@ -10,5 +10,5 @@ hist(sub$Global_active_power,
      main = "Global Active Power")
 
 ##save plot as png
-dev.copy(png, file="plot1.png")
+dev.copy(png, file="plot1.png", height=480, width=480)
 dev.off()

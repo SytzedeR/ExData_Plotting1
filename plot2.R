@@ -11,5 +11,5 @@ dt<-strptime(paste(sub$Date, sub$Time, sep=" "), "%d/%m/%Y %H:%M:%S")
 plot(dt, sub$Global_active_power, type="l", ylab="Global Active Power (Kilowatts)", xlab="")
 
 ##save plot as png
-dev.copy(png, file="plot2.png")
+dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()

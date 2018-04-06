@@ -24,5 +24,5 @@ plot(dt, sub$Voltage, type="l", xlab="datetime", ylab="Voltage")
 plot(dt, sub$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
 
 ##save plot as png
-dev.copy(png, file="plot4.png")
+dev.copy(png, file="plot4.png", height=480, width=480)
 dev.off()
